@@ -1,0 +1,9 @@
+=Cloudy Theme For CFBuilder
+
+This theme has a dark background for those who like that and arent wanting to use the default white background scheme that ships with CFBuilder.
+
+To install, simply open CFBuilders preferences, the open the "Colors" section under each language type and import the relevant file for that language.
+
+Then still in Preferences, click on General >> Editors >> Text Editors. On the right side near the bottom there will be a section titled "Appearance color options". Select "Foreground color", then uncheck System Default and choose white as the color. This will make any text not changed by the color scheme appear white in the editor so its readable.
+
+If you have any questions or issues, feel free to email me at russ@angry-fly.com
