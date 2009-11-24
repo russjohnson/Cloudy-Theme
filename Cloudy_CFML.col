@@ -84,10 +84,10 @@
 <token style="TAG_EQUAL" type="EQUAL"/>
 <token style="TAG_ATTRIBUTEVALUE" type="ATTRIBUTEVALUE"/>
 </category>
-<style foreground="rgb(0,128,255)" id="TAG"/>
-<style foreground="rgb(0,128,255)" id="TAG_TAGEND"/>
-<style foreground="rgb(0,128,255)" id="TAG_TAGSTART"/>
-<style foreground="rgb(0,128,255)" id="TAG_ATTRIBUTENAME"/>
+<style foreground="rgb(102,204,255)" id="TAG"/>
+<style foreground="rgb(102,204,255)" id="TAG_TAGEND"/>
+<style foreground="rgb(102,204,255)" id="TAG_TAGSTART"/>
+<style foreground="rgb(102,204,255)" id="TAG_ATTRIBUTENAME"/>
 <style foreground="rgb(255,0,0)" id="TAG_EQUAL"/>
-<style foreground="rgb(52,196,21)" id="TAG_ATTRIBUTEVALUE"/>
+<style foreground="rgb(0,255,0)" id="TAG_ATTRIBUTEVALUE"/>
 </colorizer>
