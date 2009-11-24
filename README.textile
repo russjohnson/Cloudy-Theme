@@ -1,6 +1,10 @@
-=Cloudy Theme For CFBuilder
+=h1. Cloudy Theme For CFBuilder
 
-This theme has a dark background for those who like that and arent wanting to use the default white background scheme that ships with CFBuilder.
+This theme has a dark background for those who like that and arent wanting to use the default white background scheme that ships with CFBuilder. It has support added for CFML, SQL, HTML, Javascript, CSS and XML.
+
+!http://img.skitch.com/20091124-kwks93kh6qbbusk6gcs4a4ppb1.jpg(Screenshot)!
+
+!http://img.skitch.com/20091124-qrarg2h21d91e4abfty4gcrtyr.jpg(Screenshot)!
 
 To install, simply open CFBuilders preferences, the open the "Colors" section under each language type and import the relevant file for that language.
 
