@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(43,43,43)" caret-color="rgb(0,0,0)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/html" line-highlight="rgb(76,76,76)" selection-background="rgb(181,213,255)" selection-foreground="rgb(0,0,0)">
+<category name="WHITESPACE" style="WHITESPACE">
+<token style="WHITESPACE_WHITESPACE" type="WHITESPACE"/>
+<token style="WHITESPACE_COMMENT" type="COMMENT"/>
+</category>
+<style foreground="rgb(76,76,76)" id="WHITESPACE"/>
+<style foreground="rgb(255,255,255)" id="WHITESPACE_WHITESPACE"/>
+<style foreground="rgb(76,76,76)" id="WHITESPACE_COMMENT"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_TEXT" type="TEXT"/>
+<token style="LITERAL_STRING" type="STRING"/>
+<token style="LITERAL_CDATA_TEXT" type="CDATA_TEXT">
+<region length="LENGTH-3" name="TEXT_PART" offset="0" style="LITERAL_CDATA_TEXT_TEXT_PART"/>
+<region length="3" name="START_END" offset="LENGTH-3" style="LITERAL_CDATA_TEXT_START_END"/>
+</token>
+<token style="LITERAL_PE_REF" type="PE_REF"/>
+<token style="LITERAL_PI_TEXT" type="PI_TEXT"/>
+<token style="LITERAL_ENTITY_REF" type="ENTITY_REF"/>
+<token style="LITERAL_PERCENT_TEXT" type="PERCENT_TEXT"/>
+<token style="LITERAL_NAME" type="NAME"/>
+<token style="LITERAL_CHAR_REF" type="CHAR_REF"/>
+</category>
+<style foreground="rgb(0,128,255)" id="LITERAL"/>
+<style foreground="rgb(255,255,255)" id="LITERAL_TEXT"/>
+<style foreground="rgb(128,255,0)" id="LITERAL_STRING"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_CDATA_TEXT_TEXT_PART"/>
+<style foreground="rgb(0,0,255)" id="LITERAL_CDATA_TEXT_START_END"/>
+<style foreground="rgb(0,128,0)" id="LITERAL_CDATA_TEXT"/>
+<style foreground="rgb(255,0,0)" id="LITERAL_PE_REF"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_PI_TEXT"/>
+<style foreground="rgb(255,0,0)" id="LITERAL_ENTITY_REF"/>
+<style foreground="rgb(128,128,128)" id="LITERAL_PERCENT_TEXT"/>
+<style foreground="rgb(255,204,102)" id="LITERAL_NAME"/>
+<style foreground="rgb(255,0,0)" id="LITERAL_CHAR_REF"/>
+<category name="KEYWORD" style="KEYWORD">
+<token style="KEYWORD_VERSION" type="VERSION">
+<region length="7" name="VERSION_PART" offset="0" style="KEYWORD_VERSION_VERSION_PART"/>
+<region length="LENGTH-10" name="VALUE_PART" offset="9" style="KEYWORD_VERSION_VALUE_PART"/>
+<region length="1" name="QUOTE2_PART" offset="LENGTH-1" style="KEYWORD_VERSION_QUOTE2_PART"/>
+<region length="1" name="EQUAL_PART" offset="7" style="KEYWORD_VERSION_EQUAL_PART"/>
+<region length="1" name="QUOTE1_PART" offset="8" style="KEYWORD_VERSION_QUOTE1_PART"/>
+</token>
+<token style="KEYWORD_ENCODING" type="ENCODING">
+<region length="LENGTH-9" name="VALUE_PART" offset="10" style="KEYWORD_ENCODING_VALUE_PART"/>
+<region length="1" name="QUOTE2_PART" offset="LENGTH-1" style="KEYWORD_ENCODING_QUOTE2_PART"/>
+<region length="1" name="EQUAL_PART" offset="8" style="KEYWORD_ENCODING_EQUAL_PART"/>
+<region length="1" name="QUOTE1_PART" offset="9" style="KEYWORD_ENCODING_QUOTE1_PART"/>
+<region length="8" name="ENCODING_PART" offset="0" style="KEYWORD_ENCODING_ENCODING_PART"/>
+</token>
+<token style="KEYWORD_STANDALONE" type="STANDALONE">
+<region length="LENGTH-11" name="VALUE_PART" offset="12" style="KEYWORD_STANDALONE_VALUE_PART"/>
+<region length="1" name="EQUAL_PART" offset="10" style="KEYWORD_STANDALONE_EQUAL_PART"/>
+<region length="1" name="QUOTE2_PART" offset="LENGTH-1" style="KEYWORD_STANDALONE_QUOTE2_PART"/>
+<region length="1" name="QUOTE1_PART" offset="11" style="KEYWORD_STANDALONE_QUOTE1_PART"/>
+<region length="10" name="STANDALONE_PART" offset="0" style="KEYWORD_STANDALONE_STANDALONE_PART"/>
+</token>
+</category>
+<style foreground="rgb(0,0,128)" id="KEYWORD"/>
+<style foreground="rgb(255,0,0)" id="KEYWORD_VERSION_VERSION_PART"/>
+<style foreground="rgb(0,0,255)" id="KEYWORD_VERSION_VALUE_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_VERSION_QUOTE2_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_VERSION_EQUAL_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_VERSION_QUOTE1_PART"/>
+<style foreground="rgb(0,0,128)" id="KEYWORD_VERSION"/>
+<style foreground="rgb(0,0,255)" id="KEYWORD_ENCODING_VALUE_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_ENCODING_QUOTE2_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_ENCODING_EQUAL_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_ENCODING_QUOTE1_PART"/>
+<style foreground="rgb(255,0,0)" id="KEYWORD_ENCODING_ENCODING_PART"/>
+<style foreground="rgb(0,0,128)" id="KEYWORD_ENCODING"/>
+<style foreground="rgb(0,0,255)" id="KEYWORD_STANDALONE_VALUE_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_STANDALONE_EQUAL_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_STANDALONE_QUOTE2_PART"/>
+<style foreground="rgb(0,0,0)" id="KEYWORD_STANDALONE_QUOTE1_PART"/>
+<style foreground="rgb(255,0,0)" id="KEYWORD_STANDALONE_STANDALONE_PART"/>
+<style foreground="rgb(0,0,128)" id="KEYWORD_STANDALONE"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(255,128,128)" id="ERROR"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR">
+<token style="PUNCTUATOR_START_TAG" type="START_TAG"/>
+<token style="PUNCTUATOR_ELEMENT_DECL" type="ELEMENT_DECL"/>
+<token style="PUNCTUATOR_GREATER_THAN" type="GREATER_THAN"/>
+<token style="PUNCTUATOR_ENTITY_DECL" type="ENTITY_DECL"/>
+<token style="PUNCTUATOR_CDATA_START" type="CDATA_START"/>
+<token style="PUNCTUATOR_ATTLIST_DECL" type="ATTLIST_DECL"/>
+<token style="PUNCTUATOR_SLASH_GREATER_THAN" type="SLASH_GREATER_THAN"/>
+<token style="PUNCTUATOR_PERCENT_GREATER" type="PERCENT_GREATER"/>
+<token style="PUNCTUATOR_DOCTYPE_DECL" type="DOCTYPE_DECL"/>
+<token style="PUNCTUATOR_CDATA_END" type="CDATA_END"/>
+<token style="PUNCTUATOR_QUESTION_GREATER_THAN" type="QUESTION_GREATER_THAN"/>
+<token style="PUNCTUATOR_END_TAG" type="END_TAG"/>
+<token style="PUNCTUATOR_NOTATION_DECL" type="NOTATION_DECL"/>
+</category>
+<style foreground="rgb(255,255,255)" id="PUNCTUATOR"/>
+<style foreground="rgb(255,204,102)" id="PUNCTUATOR_START_TAG"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_ELEMENT_DECL"/>
+<style foreground="rgb(255,204,102)" id="PUNCTUATOR_GREATER_THAN"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_ENTITY_DECL"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_CDATA_START"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_ATTLIST_DECL"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_SLASH_GREATER_THAN"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_PERCENT_GREATER"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_DOCTYPE_DECL"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_CDATA_END"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_QUESTION_GREATER_THAN"/>
+<style foreground="rgb(255,204,102)" id="PUNCTUATOR_END_TAG"/>
+<style foreground="rgb(0,0,255)" id="PUNCTUATOR_NOTATION_DECL"/>
+</colorizer>

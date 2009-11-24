@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(43,43,43)" caret-color="rgb(0,0,0)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/css" line-highlight="rgb(51,51,51)" selection-background="rgb(51,51,51)" selection-foreground="rgb(0,0,0)">
+<category name="WHITESPACE" style="WHITESPACE">
+<token style="WHITESPACE_COMMENT" type="COMMENT"/>
+<token style="WHITESPACE_MULTILINE_COMMENT" type="MULTILINE_COMMENT"/>
+<token style="WHITESPACE_START_MULTILINE_COMMENT" type="START_MULTILINE_COMMENT"/>
+</category>
+<style foreground="rgb(0,128,0)" id="WHITESPACE"/>
+<style foreground="rgb(76,76,76)" id="WHITESPACE_COMMENT"/>
+<style foreground="rgb(76,76,76)" id="WHITESPACE_MULTILINE_COMMENT"/>
+<style foreground="rgb(76,76,76)" id="WHITESPACE_START_MULTILINE_COMMENT"/>
+<category name="LITERAL" style="LITERAL">
+<token style="LITERAL_NUMBER" type="NUMBER"/>
+<token style="LITERAL_EMS" type="EMS"/>
+<token style="LITERAL_HASH" type="HASH"/>
+<token style="LITERAL_FUNCTION" type="FUNCTION"/>
+<token style="LITERAL_COLOR" type="COLOR"/>
+<token style="LITERAL_STRING" type="STRING"/>
+<token style="LITERAL_CLASS" type="CLASS"/>
+</category>
+<style foreground="rgb(255,0,0)" id="LITERAL"/>
+<style foreground="rgb(255,128,0)" id="LITERAL_NUMBER"/>
+<style foreground="rgb(255,0,0)" id="LITERAL_EMS"/>
+<style foreground="rgb(163,21,21)" id="LITERAL_HASH"/>
+<style foreground="rgb(0,0,255)" id="LITERAL_FUNCTION"/>
+<style foreground="rgb(255,0,0)" id="LITERAL_COLOR"/>
+<style font-style="italic" foreground="rgb(255,0,0)" id="LITERAL_STRING"/>
+<style foreground="rgb(255,128,0)" id="LITERAL_CLASS"/>
+<category name="KEYWORD" style="KEYWORD"/>
+<style foreground="rgb(255,128,0)" id="KEYWORD"/>
+<category name="ERROR" style="ERROR"/>
+<style foreground="rgb(222,0,0)" id="ERROR"/>
+<category name="IDENTIFIER" style="IDENTIFIER"/>
+<style foreground="rgb(255,204,102)" id="IDENTIFIER"/>
+<category name="PUNCTUATOR" style="PUNCTUATOR"/>
+<style font-weight="bold" foreground="rgb(255,255,255)" id="PUNCTUATOR"/>
+</colorizer>
