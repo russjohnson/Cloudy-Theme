@@ -1,93 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(43,43,43)" caret-color="rgb(0,0,0)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/cfml" line-highlight="rgb(51,51,51)" selection-background="rgb(102,102,102)" selection-foreground="rgb(255,255,255)">
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(0,0,0)" caret-color="rgb(0,0,0)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/cfml" line-highlight="rgb(25,25,25)" selection-background="rgb(25,25,25)" selection-foreground="rgb(0,0,0)">
 <category name="SQL" style="SQL">
-<token style="SQL_SQL_TEXT" type="SQL_TEXT"/>
 <token style="SQL_SQL_KEYWORD" type="SQL_KEYWORD"/>
+<token style="SQL_SQL_TEXT" type="SQL_TEXT"/>
 <token style="SQL_SQL_COMMENT" type="SQL_COMMENT"/>
 </category>
-<style foreground="rgb(255,255,255)" id="SQL"/>
-<style foreground="rgb(255,255,255)" id="SQL_SQL_TEXT"/>
-<style foreground="rgb(255,102,102)" id="SQL_SQL_KEYWORD"/>
-<style foreground="rgb(127,127,127)" id="SQL_SQL_COMMENT"/>
-<category name="WHITESPACE" style="WHITESPACE">
-<token style="WHITESPACE_SCRIPT_LINE_COMMENT" type="SCRIPT_LINE_COMMENT"/>
-<token style="WHITESPACE_TAG_COMMENT" type="TAG_COMMENT"/>
-<token style="WHITESPACE_SCRIPT_BLOCK_COMMENT" type="SCRIPT_BLOCK_COMMENT"/>
-<token style="WHITESPACE_WHITESPACE" type="WHITESPACE"/>
-</category>
-<style foreground="rgb(127,127,127)" id="WHITESPACE"/>
-<style foreground="rgb(127,127,127)" id="WHITESPACE_SCRIPT_LINE_COMMENT"/>
-<style foreground="rgb(127,127,127)" id="WHITESPACE_TAG_COMMENT"/>
-<style foreground="rgb(127,127,127)" id="WHITESPACE_SCRIPT_BLOCK_COMMENT"/>
-<style foreground="rgb(255,255,255)" id="WHITESPACE_WHITESPACE"/>
+<style foreground="rgb(255,255,0)" id="SQL"/>
+<style font-weight="bold" foreground="rgb(128,0,0)" id="SQL_SQL_KEYWORD"/>
+<style foreground="rgb(255,255,0)" id="SQL_SQL_TEXT"/>
+<style foreground="rgb(128,128,128)" id="SQL_SQL_COMMENT"/>
+<category name="WHITESPACE" style="WHITESPACE"/>
+<style foreground="rgb(102,102,102)" id="WHITESPACE"/>
 <category name="LITERAL" style="LITERAL">
 <token style="LITERAL_STRING_LITERAL" type="STRING_LITERAL"/>
 <token style="LITERAL_NUMERIC_LITERAL" type="NUMERIC_LITERAL"/>
 </category>
-<style foreground="rgb(0,255,0)" id="LITERAL"/>
-<style foreground="rgb(0,255,0)" id="LITERAL_STRING_LITERAL"/>
-<style foreground="rgb(0,255,0)" id="LITERAL_NUMERIC_LITERAL"/>
+<style foreground="rgb(102,153,204)" id="LITERAL"/>
+<style foreground="rgb(153,255,102)" id="LITERAL_STRING_LITERAL"/>
+<style foreground="rgb(255,128,0)" id="LITERAL_NUMERIC_LITERAL"/>
 <category name="KEYWORD" style="KEYWORD">
-<token style="KEYWORD_CONTINUE" type="CONTINUE"/>
-<token style="KEYWORD_RETURN" type="RETURN"/>
-<token style="KEYWORD_VAR" type="VAR"/>
-<token style="KEYWORD_THROW" type="THROW"/>
-<token style="KEYWORD_TRY" type="TRY"/>
-<token style="KEYWORD_FOR" type="FOR"/>
-<token style="KEYWORD_FINALLY" type="FINALLY"/>
-<token style="KEYWORD_IF" type="IF"/>
-<token style="KEYWORD_BREAK" type="BREAK"/>
-<token style="KEYWORD_ELSE" type="ELSE"/>
-<token style="KEYWORD_DEFAULT" type="DEFAULT"/>
-<token style="KEYWORD_THIS" type="THIS"/>
-<token style="KEYWORD_CASE" type="CASE"/>
-<token style="KEYWORD_SWITCH" type="SWITCH"/>
 <token style="KEYWORD_FUNCTION" type="FUNCTION"/>
-<token style="KEYWORD_CATCH" type="CATCH"/>
-<token style="KEYWORD_WHILE" type="WHILE"/>
+<token style="KEYWORD_VAR" type="VAR"/>
 </category>
-<style font-weight="bold" foreground="rgb(255,0,0)" id="KEYWORD"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_CONTINUE"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_RETURN"/>
-<style font-weight="bold" foreground="rgb(102,153,204)" id="KEYWORD_VAR"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_THROW"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_TRY"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_FOR"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_FINALLY"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_IF"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_BREAK"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_ELSE"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_DEFAULT"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_THIS"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_CASE"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_SWITCH"/>
+<style font-weight="bold" foreground="rgb(255,255,153)" id="KEYWORD"/>
 <style font-weight="bold" foreground="rgb(51,153,102)" id="KEYWORD_FUNCTION"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_CATCH"/>
-<style foreground="rgb(255,255,255)" id="KEYWORD_WHILE"/>
+<style font-weight="bold" foreground="rgb(102,153,204)" id="KEYWORD_VAR"/>
 <category name="PUNCTUATOR" style="PUNCTUATOR">
-<token style="PUNCTUATOR_LBRACKET" type="LBRACKET"/>
-<token style="PUNCTUATOR_RBRACKET" type="RBRACKET"/>
-<token style="PUNCTUATOR_LPAREN" type="LPAREN"/>
 <token style="PUNCTUATOR_LESS" type="LESS"/>
+<token style="PUNCTUATOR_EQUAL" type="EQUAL"/>
 <token style="PUNCTUATOR_RPAREN" type="RPAREN"/>
+<token style="PUNCTUATOR_LPAREN" type="LPAREN"/>
 </category>
-<style foreground="rgb(102,204,255)" id="PUNCTUATOR"/>
-<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LBRACKET"/>
-<style foreground="rgb(255,255,255)" id="PUNCTUATOR_RBRACKET"/>
-<style foreground="rgb(255,255,255)" id="PUNCTUATOR_LPAREN"/>
-<style foreground="rgb(0,128,255)" id="PUNCTUATOR_LESS"/>
-<style foreground="rgb(255,255,255)" id="PUNCTUATOR_RPAREN"/>
+<style foreground="rgb(255,51,51)" id="PUNCTUATOR"/>
+<style foreground="rgb(102,153,204)" id="PUNCTUATOR_LESS"/>
+<style font-weight="bold" foreground="rgb(102,153,204)" id="PUNCTUATOR_EQUAL"/>
+<style foreground="rgb(255,255,153)" id="PUNCTUATOR_RPAREN"/>
+<style foreground="rgb(255,255,153)" id="PUNCTUATOR_LPAREN"/>
 <category name="TAG" style="TAG">
-<token style="TAG_TAGEND" type="TAGEND"/>
-<token style="TAG_TAGSTART" type="TAGSTART"/>
-<token style="TAG_ATTRIBUTENAME" type="ATTRIBUTENAME"/>
-<token style="TAG_EQUAL" type="EQUAL"/>
 <token style="TAG_ATTRIBUTEVALUE" type="ATTRIBUTEVALUE"/>
+<token style="TAG_ATTRIBUTENAME" type="ATTRIBUTENAME"/>
 </category>
-<style foreground="rgb(102,204,255)" id="TAG"/>
-<style foreground="rgb(102,204,255)" id="TAG_TAGEND"/>
-<style foreground="rgb(102,204,255)" id="TAG_TAGSTART"/>
-<style foreground="rgb(102,204,255)" id="TAG_ATTRIBUTENAME"/>
-<style foreground="rgb(255,0,0)" id="TAG_EQUAL"/>
-<style foreground="rgb(0,255,0)" id="TAG_ATTRIBUTEVALUE"/>
+<style font-weight="bold" foreground="rgb(102,153,204)" id="TAG"/>
+<style font-weight="bold" foreground="rgb(153,255,102)" id="TAG_ATTRIBUTEVALUE"/>
+<style font-weight="bold" foreground="rgb(102,153,204)" id="TAG_ATTRIBUTENAME"/>
 </colorizer>
