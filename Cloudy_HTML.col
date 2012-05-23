@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(0,0,0)" caret-color="rgb(0,0,0)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/html" line-highlight="rgb(25,25,25)" selection-background="rgb(51,51,51)" selection-foreground="rgb(0,0,0)">
+<colorizer xmlns="http://www.aptana.com/2007/colorizer/1.0" background="rgb(0,0,0)" caret-color="rgb(255,255,255)" folding-background="rgb(230,230,230)" folding-foreground="rgb(139,139,139)" language="text/html" line-highlight="rgb(25,25,25)" selection-background="rgb(51,51,51)" selection-foreground="rgb(0,0,0)">
 <category name="WHITESPACE" style="WHITESPACE">
 <token style="WHITESPACE_WHITESPACE" type="WHITESPACE"/>
 <token style="WHITESPACE_COMMENT" type="COMMENT"/>

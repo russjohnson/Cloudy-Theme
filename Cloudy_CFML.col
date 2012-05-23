@@ -36,6 +36,8 @@
 <style font-weight="bold" foreground="rgb(102,153,204)" id="PUNCTUATOR_EQUAL"/>
 <style foreground="rgb(255,255,153)" id="PUNCTUATOR_RPAREN"/>
 <style foreground="rgb(255,255,153)" id="PUNCTUATOR_LPAREN"/>
+<category name="DATA_TYPE" style="DATA_TYPE"/>
+<style foreground="rgb(255,255,255)" id="DATA_TYPE"/>
 <category name="TAG" style="TAG">
 <token style="TAG_ATTRIBUTEVALUE" type="ATTRIBUTEVALUE"/>
 <token style="TAG_ATTRIBUTENAME" type="ATTRIBUTENAME"/>
